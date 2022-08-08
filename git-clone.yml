@@ -1,0 +1,10 @@
+---
+- hosts: all
+gather_facts: no
+  tasks:
+    - name: Gitclonerepo
+      git:
+        repo: "https://github.com/jaumendes/jenkins-pipeline-examples"
+dest: ~/user/repo
+        clone: yes
+        update: yes
