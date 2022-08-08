@@ -5,6 +5,6 @@ gather_facts: no
     - name: Gitclonerepo
       git:
         repo: "https://github.com/jaumendes/jenkins-pipeline-examples"
-dest: ~/user/repo
+dest: ~/user/jose.mendes
         clone: yes
         update: yes
